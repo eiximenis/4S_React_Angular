@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../bower_components/react/react.js"></script>
+    <script src="../bower_components/react/JSXTransformer.js"></script>
+    <link href="../demo.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <script type="text/jsx" src="components/rate.js"></script>
+    <script type="text/jsx" src="components/beer.js"></script>
+    <script type="text/jsx" src="components/beer-form.js"></script>
+    <script type="text/jsx" src="components/app.js"></script>
+    <script src="../data.js"></script>
+    <script type="text/jsx">
+        /*** @jsx React.DOM */
+
+        React.renderComponent(<App beers={Model} />, document.getElementById("content"));
+    </script>
+
+<div id="content"></div>
+
+</body>
+</html>

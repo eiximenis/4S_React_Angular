@@ -1,0 +1,8 @@
+/* React rater */
+.rater-star-selected {
+    color: gold;
+}
+
+.rater-star-unselected {
+    color: gray;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "reactvsangular",
+  "version": "0.0.0",
+  "authors": [
+    "Eduard Tomàs <etomas@gmail.com>",
+    "Isabel Cabezas <isabel.cabezas@gmail.com>"
+  ],
+  "description": "Demos react vs angular 4sessions",
+  "keywords": [
+    "reactjs",
+    "angularjs"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
